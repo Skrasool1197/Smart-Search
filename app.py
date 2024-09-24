@@ -15,7 +15,7 @@ from langchain_groq import ChatGroq
 import time
 from dotenv import load_dotenv
 
-# Load environment variables
+## Load environment variables
 load_dotenv()
 
 groq_api_key = os.getenv('GROQ_API_KEY')
