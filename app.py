@@ -58,7 +58,7 @@ def vector_embeddings():
 
 # Page configuration
 st.set_page_config(page_title='Smart Course Search - Analytics Vidhya', layout="centered")
-st.title('Find the Perfect Free Course! 🎓')
+st.title('Find the Perfect Free Course on Analytics Vidhya!🎓')
 st.caption('I am here to suggest you the best free courses on Analytics Vidhya!')
 
 # Prompt template for LLM
@@ -83,7 +83,7 @@ if st.button('Start Session'):
     st.success('Ask your query now!')
 
 # Input and button for embedding
-query = st.text_input('What do you want to learn today?', placeholder='Ask me about courses, e.g., "data science," "Python basics"')
+query = st.text_input('**What do you want to learn today?**', placeholder='Ask me about courses, e.g., "data science," "Python basics"')
 
 # Running the query
 if query:
